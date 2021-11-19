@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,6 +13,10 @@
             email: <input type="text" name="email" value="${email}"><br>
             password: <input type="password" name="password"><br>
             <input type="submit" value="Sign in">
+            <br>
+            <a href="forgot">Forgot password?</a>
+            <br>
         </form>
+           
     </body>
 </html>
